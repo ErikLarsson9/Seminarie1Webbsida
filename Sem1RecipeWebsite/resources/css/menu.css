@@ -1,0 +1,102 @@
+body{
+    font-size: 18px;
+    font-family:Georgia;
+    font-style: italic;
+}
+
+ul.menu{
+ 		background-color: #CD853F;
+ 		overflow:hidden; 
+ 		position: fixed;
+ 		top: 0;
+ 		width: 100%;
+        
+
+ 				
+ 		/* When using overflow hidden it creates a new block formatting context which forces
+ 		 ul to contain its children increasing its height. 
+ 		
+ 		 */
+ 		
+
+ 	}
+
+
+
+
+section{
+	margin-top: 50px;
+	overflow:hidden;
+	
+}
+.menu-list{
+    float: left;
+
+}
+li.titles{
+
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 25px;
+    float: right;
+
+    text-decoration: none;
+}
+
+
+li a.button, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: sienna;
+
+}
+
+
+
+li.dropdown {
+
+    
+}
+
+
+
+
+
+
+/*   .dropdown:hover .dropbtn  if you have class .dropdown:hover and it contains .dropbtn then
+color dropbutton.          */
+
+.dropdown-content {
+    display: none;
+    /* If position is absolute child (dropdown-content) is positioned relative its parent
+    if default static then parent will expand to contain child and the 
+    parent  will move elements that are right of it to the right as it increases in size */
+
+    position: fixed;
+    background-color: #CD853F;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+}
+
+.dropdown-content a:hover {background-color: sienna}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

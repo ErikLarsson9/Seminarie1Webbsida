@@ -1,0 +1,110 @@
+img.recipe-image{
+
+	display: block;
+	margin: 0 auto;  
+	margin-top: 50px;  
+}
+ol{
+	list-style-type: decimal;
+	padding-left: 20px;
+}
+
+div.comments{
+	float: right; 
+	width: 70%;
+	height: 100px;
+	margin-top: 50px;
+	margin-right: 40px;
+	overflow: hidden; 
+
+
+}
+
+
+
+section.comments{
+	float: right; 
+	width: 70%;
+	height: 100px;
+	margin-top: 50px;
+	margin-right: 40px;
+}
+
+
+
+section.subsection{
+	
+	margin-top: 50px;
+	float: right; 
+	
+	width: 70%;
+	margin-right: 40px;
+
+}
+h3.reference{
+	padding-top: 50px; 
+}
+
+h1{
+
+	font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 36px;
+    
+}
+h3{
+	padding-top: 10px;
+	font-size: 20px; 
+
+
+}
+p{
+	padding-top: 10px;
+}
+li.ingredients{
+	padding-top: 5px; 
+}
+
+
+
+aside.comments{
+	height: 100px; 
+	margin-top: 50px;
+}
+aside{
+	margin-left: 20px;
+	margin-top: 50px;
+	float: left;
+	width: 20%;
+	height: auto; 
+}
+
+aside.ingredients{
+	
+	background-color: #d9e4f4; 
+	
+}
+
+h2{
+	font-size: 28px;
+    font-style: italic;
+    
+   
+}
+div.wrapper{
+	
+	
+	
+
+}
+div.meatballs-comments{
+	margin-top: 1000px;
+	width: auto;
+}
+body{
+	
+	padding-bottom: 1000px; 
+	
+}
+

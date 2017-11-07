@@ -1,0 +1,103 @@
+li.calender-element {
+	width: 100px;
+ 	height: 100px;
+ 	border-left: 1px solid black;
+ 	border-right: 1px solid black;
+ 	text-align: left;
+ 	text-indent: 4px;
+ 	float: left;
+ 	 
+
+
+ 	
+ 	
+ 	
+ 	
+
+}
+h1{
+
+	font-size: 36px;
+	padding-top: 60px;
+    font-style: normal;
+    font-weight: bold;
+    
+    
+}
+
+img.calender-image{
+	display: block;
+	margin: 0 auto;
+	
+
+	
+
+	
+	    
+}
+
+li a.calender-link:hover{
+	background-color: #F2F0F0; 
+	
+	
+}
+
+li a.calender-link{
+	display: block;
+	padding: 4px;
+	
+	
+ 	
+
+
+	
+}
+
+
+
+
+li.calender-element + li.calender-element {
+    border-left: none;
+}
+li.calender-element:hover{
+	background-color: #F2F0F0;
+
+}
+li.calender-weekday{
+	width: 100px;
+	height: 20px;
+	border-left: 1px solid black;
+ 	border-right: 1px solid black;
+	text-align: center;
+	background-color: yellow;
+	float: left;
+	
+
+}
+li.calender-weekday + li.calender-weekday{
+	border-left: none;
+}
+div.calender-container {
+	overflow:hidden;
+
+}
+
+ul.calender-row {
+	width: 708px;
+	overflow:hidden;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+ul.calender-row + ul.calender-row{
+	border-top: none;
+}
+section.calender-section{
+	margin-top: 60px;
+	margin-left: 20px; 
+	overflow:hidden;
+}
+div.calender-section{
+	margin-top: 60px;
+	margin-left: 20px; 
+	overflow:hidden;
+}
